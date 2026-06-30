@@ -1,0 +1,6 @@
+name=input("Enter your name: ")
+age=input("Enter your age: ")
+branch=input("Enter your branch: ")
+print(name)
+print(age)
+print(branch)
