@@ -1,0 +1,6 @@
+s = input("Enter a string: ")
+visited = ""
+for ch in s:
+    if ch  not in visited:
+        print(ch, "=", s.count(ch))
+        visited = visited + ch
